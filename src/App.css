@@ -23,6 +23,10 @@
 }
 
 
+.nav {
+    padding: 10px;
+    border-bottom: solid 2px #e5e5e5;
+}
 .nav ul li {
     display: inline-block;
 }
