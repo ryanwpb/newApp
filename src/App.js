@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './header.js';
 
@@ -8,11 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to my app</h1>
-        </header>
         <TopNav />
+        <Footer />
       </div>
     );
   }
@@ -30,6 +26,16 @@ class TopNav extends Component {
       </div>
     );
   }
+}
+
+class Footer extends Component {
+    render() {
+        return (
+        <section className="footer">
+            <p>i am a footer.</p>
+        </section>
+        )
+    }
 }
 
 export default App;
