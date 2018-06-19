@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import './header.js';
+import Footer from './footer.js';
+
+
 
 
 class App extends Component {
@@ -28,15 +31,6 @@ class TopNav extends Component {
   }
 }
 
-class Footer extends Component {
-    render() {
-        return (
-        <section className="footer">
-            <p>i am a footer.</p>
-        </section>
-        )
-    }
-}
 
 export default App;
 
