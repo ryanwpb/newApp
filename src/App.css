@@ -22,6 +22,23 @@
   font-size: large;
 }
 
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.nav ul li a:hover{
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
