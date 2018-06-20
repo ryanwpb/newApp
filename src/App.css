@@ -1,16 +1,17 @@
+/*-- Resest Css --*/
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-   
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 html {
- max-width: 100%;
- overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
+/*-- Main app Css --*/
 .App {
   text-align: center;
 }
@@ -35,39 +36,43 @@ html {
   font-size: large;
 }
 
+/*-- Nav Css --*/
 .logo img {
-    display: none;
+  display: none;
 }
 .nav {
-    padding: 10px;
-    border-bottom: solid 2px #e5e5e5;
-   
+  padding: 10px;
+  border-bottom: solid 2px #e5e5e5;
 }
-
 
 .nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
-.nav ul li a{
-    color: #222;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 0px 10px 0px auto;
+.nav ul li a {
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 10px 0px auto;
 }
 
-.nav ul li a:hover{
-    color: #e5e5e5;
-    text-decoration: none;
+.nav ul li a:hover {
+  color: #e5e5e5;
+  text-decoration: none;
 }
 
+/*-- About Css --*/
+#about {
+  padding: 10px;
+}
+
+/*-- Footer Css --*/
 .footer {
-    background: #222;
-    height: auto;
-    padding: 10px;
+  background: #222;
+  height: auto;
+  padding: 10px;
 }
 
 .footer p {
-    color: #fff;
+  color: #fff;
 }
-
