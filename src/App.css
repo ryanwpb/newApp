@@ -2,6 +2,12 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+   
+}
+
+html {
+ max-width: 100%;
+ overflow-x: hidden;
 }
 
 .App {
@@ -32,7 +38,10 @@
 .nav {
     padding: 10px;
     border-bottom: solid 2px #e5e5e5;
+   
 }
+
+
 .nav ul li {
     display: inline-block;
 }

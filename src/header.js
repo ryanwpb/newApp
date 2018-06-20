@@ -6,7 +6,9 @@ class TopNav extends Component {
   render() {
     return (
       <div className="nav">
-        <img src={Logo} width="300" className="logoImage"/>
+        <div className="logo">
+          <img src={Logo} width="300" className="logoImage"/>
+        </div>
          <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Work</a></li>
