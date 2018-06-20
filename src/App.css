@@ -66,6 +66,26 @@ html {
   padding: 10px;
 }
 
+.col {
+  max-width: 1200px;
+  margin: 10px auto;
+  display: flex;
+}
+ 
+.col.col-left {
+   width: 50%;
+   float: left;
+   text-align: left;
+   padding-right: 20px;
+}
+
+.col.col-right {
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+}
+
 /*-- Footer Css --*/
 .footer {
   background: #222;
