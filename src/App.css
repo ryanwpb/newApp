@@ -34,7 +34,9 @@ html {
   font-size: large;
 }
 
-
+.logo img {
+    display: none;
+}
 .nav {
     padding: 10px;
     border-bottom: solid 2px #e5e5e5;
