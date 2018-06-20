@@ -6,14 +6,22 @@ import vLogo from './assets/images/vitacost-logo.png';
 class Work extends Component {
   render() {
     return (
-      <div id="work-logos">
-        <div className="logo">
-          <img src={tiyLogo} width="" className="work-logo" alt="The Iron Yard Logo"/>
+    <section>
+        <div className="title">
+          <h2>Work</h2>
         </div>
-         <div className="logo">
-          <img src={vLogo} width="200" className="work-logo" alt="Vitacost Logo"/>
+        <div className="titleDesc">
+         <p>this my description paragraph.</p>
+        </div>
+      <div id="work-logos">
+        <div className="work-logo">
+          <img src={tiyLogo} width="" alt="The Iron Yard Logo"/>
+        </div>
+         <div className="work-logo">
+          <img src={vLogo} width="200" alt="Vitacost Logo"/>
         </div>
       </div>
+    </section>
     );
   }
 }
