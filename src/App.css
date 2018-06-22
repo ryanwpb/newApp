@@ -32,7 +32,8 @@ html {
 }
 
 .nav ul li a {
-  color: #222;
+  color: hsl(350,100%,62%);
+  font-size: 18px;
   text-decoration: none;
   cursor: pointer;
   margin: 0px 10px 0px auto;
@@ -83,6 +84,17 @@ html {
     padding: 0px 10px;
     display: block;
     margin: auto;
+}
+
+/*-- Slider Css --*/
+.slick-slider {
+    margin: 20px auto;
+}
+
+
+.slick-slide img {
+    display: block;
+    margin: 0px auto;
 }
 
 /*-- Footer Css --*/

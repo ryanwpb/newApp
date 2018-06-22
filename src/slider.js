@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import tiyLogo from './assets/images/tiy-logo.png';
+import vLogo from './assets/images/vitacost-logo.png';
+import marLogo from './assets/images/marketran-logo.jpg';
+
  
 class SimpleSlider extends React.Component {
   render() {
@@ -7,16 +11,18 @@ class SimpleSlider extends React.Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1
     };
     return (
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <div>
+          <img src={tiyLogo} width="200" alt="The Iron Yard Logo"/>
+        </div>
         </div>
         <div>
-          <h3>2</h3>
+          <img src={vLogo} width="200" alt="Vitacost Logo"/>
         </div>
         <div>
           <h3>3</h3>
