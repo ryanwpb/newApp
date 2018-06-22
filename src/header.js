@@ -7,11 +7,12 @@ class TopNav extends Component {
     return (
       <div className="nav">
         <div className="logo">
-          <img src={Logo} width="300" className="logoImage"/>
+          <h2>Ryan Graham</h2>
         </div>
          <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Work</a></li>
+          <li><a href="#">Skills</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
