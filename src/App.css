@@ -130,10 +130,20 @@ html {
 }
 
 /*-- Skills Css --*/
+#skills {
+  display: flex;
+    margin: 0px auto;
+  max-width: 1200px;
+}
+
 .skillBox {
   display: block;
   margin: 0px auto;
   width: 350px;
+  border: solid 1px #e5e5e5;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 /*-- Footer Css --*/

@@ -5,7 +5,7 @@ import Logo from './assets/images/logo.png';
 class Skills extends Component {
   render() {
     return (
-      <section>
+      <section id="skills">
         <div className="skillBox">
           <h3>HTML</h3>
          <p>Shortdescription to go here.</p>
