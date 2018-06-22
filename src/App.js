@@ -4,6 +4,7 @@ import TopNav from './header.js';
 import About from './about.js';
 import Work from './work.js';
 import SimpleSlider from './slider.js';
+import Skills from './skills.js';
 import Footer from './footer.js';
 
 
@@ -15,6 +16,7 @@ class App extends Component {
         <About />
         <Work />
         <SimpleSlider />
+        <Skills />
         <Footer />
       </div>
     );

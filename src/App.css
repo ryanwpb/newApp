@@ -129,6 +129,13 @@ html {
     margin: 0px auto;
 }
 
+/*-- Skills Css --*/
+.skillBox {
+  display: block;
+  margin: 0px auto;
+  width: 350px;
+}
+
 /*-- Footer Css --*/
 .footer {
   background: #222;
