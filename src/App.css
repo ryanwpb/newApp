@@ -159,6 +159,12 @@ html {
     color: hsl(350,100%,62%);
 }
 
+.skillBox img {
+    height: 250px;
+    width: 100%;
+}
+
+
 /*-- Footer Css --*/
 .footer {
   background: #222;
