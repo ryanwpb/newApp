@@ -10,6 +10,7 @@ class SimpleSlider extends React.Component {
     var settings = {
       dots: true,
       infinite: true,
+      autoplay: true,
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 1

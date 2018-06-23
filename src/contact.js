@@ -7,6 +7,7 @@ class Contact extends Component {
     return (
       <section id="contact">
         <h2>I'm the contact area.'</h2>
+        
       </section>
     );
   }
