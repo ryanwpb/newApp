@@ -132,7 +132,7 @@ html {
 /*-- Skills Css --*/
 #skills {
   display: flex;
-    margin: 0px auto;
+    margin: 30px auto;
   max-width: 1200px;
 }
 
