@@ -174,9 +174,36 @@ html {
   padding: 10px;
 }
 
-.footer p {
-  color: #fff;
+.footer-container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0px auto;
 }
+
+.footer-logo {
+  color: #e5e5e5;
+  width: 33%;
+}
+
+.footer-logo h2 { 
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+.footer-contact {
+    width: 33%;
+    color: #e5e5e5;
+    margin: 5px auto;
+}
+
+.footer-social {
+    margin: 5px 0px;
+}
+
+.footer-social h3 {
+    color: #e5e5e5;
+    font-size: 18px;
+} 
 
 .footer i {
     color: #e5e5e5;
