@@ -198,6 +198,12 @@ html {
 
 .footer-contact i {
     font-size: 18px !important;
+    pointer-events: none;
+}
+
+.footer-contact i:hover {
+    color: #e5e5e5 !important;
+    
 }
 
 .footer-contact a {
