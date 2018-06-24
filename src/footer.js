@@ -6,9 +6,10 @@ class Footer extends Component {
         <section className="footer">
             <p>I am a footer.</p>
             <div className="icon-area">
-              <ion-icon name="logo-github"></ion-icon>
             <i class="icon ion-logo-github"></i>
-            <ion-icon class="logo-github"></ion-icon>
+            <i class="icon ion-logo-linkedin"></i>
+            <i class="icon ion-logo-facebook"></i>
+            <i class="icon ion-logo-instagram"></i>
             </div>
         </section>
         )
