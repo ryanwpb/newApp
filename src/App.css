@@ -188,12 +188,17 @@ html {
 .footer-logo h2 { 
   font-family: 'Pacifico', cursive;
   font-size: 25px;
+  color: hsl(350,100%,62%);
 }
 
 .footer-contact {
     width: 33%;
     color: #e5e5e5;
     margin: 5px auto;
+}
+
+.footer-contact h3 {
+    color: hsl(350,100%,62%);
 }
 
 .footer-contact i {
@@ -216,7 +221,7 @@ html {
 }
 
 .footer-social h3 {
-    color: #e5e5e5;
+    color: hsl(350,100%,62%);
     font-size: 18px;
 } 
 
