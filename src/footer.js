@@ -20,18 +20,18 @@ class Footer extends Component {
               </div>
               <div className="footer-social">
                 <h3>Social Media</h3>
-                <Link to="https://github.com/ryanwpb">
+                <a href="https://github.com/ryanwpb">
                   <i class="icon ion-logo-github"></i>
-                </Link>
-                <Link to="https://www.linkedin.com/in/ryan-graham-4b25b4105/">
+                </a>
+                <a href="https://www.linkedin.com/in/ryan-graham-4b25b4105/">
                   <i class="icon ion-logo-linkedin"></i>
-                </Link>
-                <Link to="https://www.facebook.com/ryan.graham.771282">
+                </a>
+                <a href="https://www.facebook.com/ryan.graham.771282">
                   <i class="icon ion-logo-facebook"></i>
-                </Link>
-                <Link to="https://www.instagram.com/ry.grahamm/">
+                </a>
+                <a href="https://www.instagram.com/ry.grahamm/">
                   <i class="icon ion-logo-instagram"></i>
-                </Link>
+                </a>
               </div>
             </div>
             
