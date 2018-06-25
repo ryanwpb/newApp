@@ -17,9 +17,9 @@ class App extends Component {
     <Router>
       <div className="App">
         <TopNav />
+        <SimpleSlider />
         <About />
         <Work />
-        <SimpleSlider />
         <Skills />
         <Contact />
         <Footer />
