@@ -76,6 +76,10 @@ html, body {
   transform: scaleX(1);
 }
 
+.mobileMenu {
+  display: none;
+}
+
 /*-- About Css --*/
 #about {
   padding: 10px;
@@ -242,6 +246,14 @@ html, body {
   and (min-device-width: 320px) 
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 2) {
+      
+.nav ul li {
+  display: none;
+}
+      
+.mobileMenu {
+  display: block;
+}
       
  .footer-container {
   display: block;
