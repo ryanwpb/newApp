@@ -248,14 +248,19 @@ html, body {
   and (-webkit-min-device-pixel-ratio: 2) {
       
 .nav {
-   display: flex;       
+   display: flex; 
+   padding: 10px 10px 0px;
 }
       
  .logo {
   float: none;
   text-align: left;
-  margin: 0px auto 0px 0px;
+  margin: 5px auto 0px 0px;
  }
+      
+.logo h2 {
+  font-size: 35px;      
+}
       
 .nav ul li {
   display: none;
@@ -263,9 +268,7 @@ html, body {
       
 .mobileMenu {
   display: block;
-  float: right;
-  position: relative;
-  bottom: 10px;    
+  float: right;    
 }
       
 .mobileMenu i {
