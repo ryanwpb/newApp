@@ -1,6 +1,6 @@
-const icon = document.getElementsByClassName('.mobileIcon');
-const menu = document.getElementsByClassName('.mobileMenu');
+const icon = document.getElementsByClassName(".mobileIcon");
+const menu = document.getElementsByClassName(s".mobileMenu");
 
 icon.onclick = function() {
-    alert('CLICK');
+    console.log('click.');
 }
