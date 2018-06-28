@@ -16,6 +16,9 @@ class TopNav extends Component {
           <li><Link to="#">Skills</Link></li>
           <li><Link to="#">Contact</Link></li>
         </ul>
+        <div className="mobileMenu">
+          <i class="icon ion-md-menu"></i>
+        </div>
       </div>
     );
   }
