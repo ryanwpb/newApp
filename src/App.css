@@ -253,7 +253,15 @@ html, body {
       
 .mobileMenu {
   display: block;
+  float: right;
+  position: relative;
+  bottom: 20px;    
 }
+      
+.mobileMenu i {
+  font-size: 35px;
+  cursor: pointer;
+ }
       
  .footer-container {
   display: block;
