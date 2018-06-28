@@ -5,6 +5,12 @@ import Logo from './assets/images/logo.png';
 
 class TopNav extends Component {
   render() {
+      const icon = document.getElementsByClassName("mobileIcon");
+const menu = document.getElementsByClassName=("mobileMenu");
+
+icon.onclick = function() {
+    console.log("click.");
+};
     return (
       <div className="nav">
         <div className="logo">
