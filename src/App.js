@@ -23,6 +23,7 @@ class App extends Component {
         <Skills />
         <Contact />
         <Footer />
+        <script src="src/main.js" type="text/babel"></script>
       </div>
     </Router>
     );
