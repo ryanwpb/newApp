@@ -5,12 +5,11 @@ import Logo from './assets/images/logo.png';
 
 class TopNav extends Component {
   render() {
-      const icon = document.getElementsByClassName("mobileIcon");
-const menu = document.getElementsByClassName=("mobileMenu");
-
-icon.onclick = function() {
-    console.log("click.");
-};
+ const icon = document.getElementsByClassName('mobileIcon');
+ const menu = document.getElementsByClassName('mobileMenu');  
+ function iconClick() {
+    alert('yeah thats a CLICK');
+  };
     return (
       <div className="nav">
         <div className="logo">
@@ -23,7 +22,7 @@ icon.onclick = function() {
           <li><Link to="#">Contact</Link></li>
         </ul>
         <div className="mobileIcon">
-          <i className="icon ion-md-menu"></i>
+          <i className="icon ion-md-menu" onClick={iconClick}></i>
         </div>
          <div className="mobileMenu">
         <ul>
