@@ -15,6 +15,7 @@ class TopNav extends Component {
         <div className="logo">
           <h2>Ryan Graham</h2>
         </div>
+        <div className="spacer"></div>
          <ul>
           <li><Link to="#">About</Link></li>
           <li><Link to="#">Work</Link></li>
