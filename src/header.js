@@ -23,7 +23,9 @@ class TopNav extends Component {
           <li><Link to="#">Contact</Link></li>
         </ul>
         <div className="mobileIcon">
-          <i className="icon ion-md-menu" onClick={iconClick}></i>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
          <div className="mobileMenu">
         <ul>

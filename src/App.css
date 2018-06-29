@@ -81,7 +81,7 @@ body {
   transform: scaleX(1);
 }
 
-.mobileIcon {
+.line {
   display: none;
 }
 
@@ -263,19 +263,20 @@ body {
   .nav ul li {
     display: none;
   }
+    
+.mobileIcon {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  width: 30px;
+}
 
-  .mobileIcon {
+  .line {
     display: block;
     float: right;
   }
 
-  .mobileIcon i {
-    font-size: 35px;
-    cursor: pointer;
-  }
-
- 
-    
   .footer-container {
     display: block;
   }
