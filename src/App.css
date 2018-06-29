@@ -268,14 +268,18 @@ body {
   height: 25px;
   display: flex;
   flex-direction: column;
-  background: #000;
   width: 30px;
+  background: transparent;
+  justify-content: space-around;
+  cursor: pointer;
 }
 
-  .line {
-    display: block;
-    float: right;
-  }
+.line {
+   display: block;
+   width: 30px;
+   height: 1px;
+   background: #222;
+}
 
   .footer-container {
     display: block;
