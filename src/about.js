@@ -13,7 +13,7 @@ class About extends Component {
         </div>
         <div className="col">
           <div className="col col-left">
-           <p className="p1"><span className="s1">Our IOP West Palm Beach program develops individualized drug abuse and alcohol abuse treatments for our patients utilizing individual and group therapies. The at A New Start intensive outpatient program staff has extensive knowledge and experience working with:</span></p>
+           <p className="p1"><span className="s1">Hello. I’m Ryan Graham. I’m a Web Developer. I come up with ideas & concepts that help you drive business. I’ve been in the business for over 3 years and can tackle everything from singal page web applications to new site builds. I adapt my style to suit every job and work with some of the best companies.</span></p>
          </div>
         <div className="col col-right">
           <p className="p1"><span className="s1">Therapies at A New Start for drug abuse treatment and alcohol addiction include:&nbsp;Rational Emotive Behavioral Therapy, Cognitive-Behavioral Therapy, Client-Centered Therapy, Trauma Therapy, Relapse Prevention, Family Systems Therapy, 12-Step Recovery Program, Existential Therapy, Dual Diagnosis Therapy, Solution-Focused Therapy.</span></p>

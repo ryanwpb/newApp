@@ -5,10 +5,10 @@ import Logo from './assets/images/logo.png';
 
 class TopNav extends Component {
   render() {
- const icon = document.getElementsByClassName('mobileIcon');
- const menu = document.getElementsByClassName('mobileMenu');  
+ const icon = document.getElementsByClassName('mobileIcon'); 
  function iconClick() {
-    alert('yeah thats a CLICK');
+    const menu = document.getElementsByClassName('mobileMenu'); 
+    alert('Thats a click.');
   };
     return (
       <div className="nav">
