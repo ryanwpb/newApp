@@ -257,17 +257,7 @@ body {
 
 /*-- Media Queries --*/
 @media only screen and (max-width: 812px) {
-  .nav {
-    display: flex;
-    padding: 10px 10px 0px;
-  }
-
-  .logo {
-    float: none;
-    text-align: left;
-    margin: 5px auto 0px 0px;
-  }
-
+ 
   .logo h2 {
     font-size: 35px;
   }
