@@ -144,7 +144,7 @@ body {
 
 /*-- Slider Css --*/
 .slick-slider {
-  margin: 20px auto;
+  margin: 0px auto 1rem;
 }
 
 .slick-slide img {
@@ -238,7 +238,7 @@ body {
 }
 
 .footer-social {
-  margin: 5px 0px;
+  margin: 5px auto;
 }
 
 .footer-social h3 {
