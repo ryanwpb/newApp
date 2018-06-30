@@ -278,7 +278,7 @@ body {
    display: block;
    width: 30px;
    height: 2px;
-   background: #222;
+   background: hsl(350, 100%, 62%);
 }
 
   .footer-container {
