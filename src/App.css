@@ -157,13 +157,19 @@ body {
 /*-- Skills Css --*/
 #skills {
   display: flex;
-  margin: 30px auto;
+  margin: 0.5rem auto;
   max-width: 1200px;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
 }
 
 .skillBox {
   display: block;
-  margin: 0px auto;
+  margin: 0.5rem auto;
   width: 350px;
   border: solid 1px #e5e5e5;
   padding: 15px;
