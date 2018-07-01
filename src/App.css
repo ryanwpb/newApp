@@ -322,4 +322,12 @@ body {
         float: none;
         padding: 0.5rem;
     }
+    
+    #skills {
+        flex-direction: column;
+    }
+    
+    .skillBox {
+       margin: 0.5rem auto;
+    }
 }
