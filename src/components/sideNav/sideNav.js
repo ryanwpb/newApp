@@ -1,4 +1,5 @@
 import React from 'react';
+import './sideNav.css';
  
 const SideNav = props => (
   <nav className="sideNav">
