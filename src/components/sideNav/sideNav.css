@@ -1,0 +1,17 @@
+.toggle-button {
+    display: block;
+    height: 24px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.line {
+    background: hsl(350, 100%, 62%);
+    height: 2px;
+    width: 30px;
+}
