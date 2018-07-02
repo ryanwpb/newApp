@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Typekit from 'react-typekit';
 import Navbar from './components/toolBar/toolBar.js';
-import SideNav from './components/sideNav/sideNav.js'
+import SideNav from './components/sideNav/sideNav.js';
+import Overlay from './components/overlay/overlay.js';
 import About from './about.js';
 import Work from './work.js';
 import SimpleSlider from './slider.js';
