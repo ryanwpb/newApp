@@ -1,0 +1,28 @@
+.toolbar {
+    width: 100%;
+}
+
+.toolbar-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.logo h2 {
+    font-family: Pacifico;
+    color: hsl(350, 100%, 62%);
+    font-size: 30px;
+}
+
+.navItems ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navItems a {
+    color: hsl(350, 100%, 62%);
+    text-decoration: none;
+}
