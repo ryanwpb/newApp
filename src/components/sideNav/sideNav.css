@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.toggle-button:focus {
+    outline: none;
+}
+
+
 .line {
     background: hsl(350, 100%, 62%);
     height: 2px;
