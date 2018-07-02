@@ -35,7 +35,7 @@ class App extends Component {
       
       if(this.state.sideNavOpen) {
           sideNav = <SideNav />;
-          overlay = <Overlay press={this.overlayClickHandler} />
+          overlay = <Overlay click={this.overlayClickHandler} />
          };
       
     return (
