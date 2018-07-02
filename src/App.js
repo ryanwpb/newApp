@@ -35,6 +35,7 @@ class App extends Component {
           sideNav = <SideNav />;
          };
       
+      
     return (
     <Router>
       <div className="App" style={{height: '100%'}} >

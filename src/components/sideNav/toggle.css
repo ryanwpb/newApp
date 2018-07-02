@@ -1,7 +1,7 @@
 .toggle-button {
     height: 24px;
     width: 30px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     background: transparent;
@@ -19,4 +19,10 @@
     background: hsl(350, 100%, 62%);
     height: 2px;
     width: 30px;
+}
+
+@media only screen and (max-width: 812px) {
+    .toggle-button {
+        display: flex;
+    }
 }

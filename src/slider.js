@@ -5,6 +5,7 @@ import vLogo from './assets/images/vitacost-logo.png';
 import marLogo from './assets/images/marketran-logo.jpg';
 import codeCoffee from './assets/images/code-coffee.jpg';
 
+
  
 class SimpleSlider extends React.Component {
   render() {
