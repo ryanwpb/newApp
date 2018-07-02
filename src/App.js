@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Typekit from 'react-typekit';
+import Toolbar from './components/toolBar/toolBar.js'
 import About from './about.js';
 import Work from './work.js';
 import SimpleSlider from './slider.js';
@@ -16,6 +17,7 @@ class App extends Component {
     return (
     <Router>
       <div className="App">
+        <Toolbar />
         <SimpleSlider />
         <About />
         <Work />
