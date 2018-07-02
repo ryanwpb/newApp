@@ -16,7 +16,7 @@ const Navbar = props => (
         </ul>
      </div>
       <div>
-         <ToggleButton />
+         <ToggleButton click={props.sideNavClickHandler}/>
       </div>
     </nav>
   </header>

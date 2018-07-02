@@ -15,12 +15,31 @@ import Footer from './footer.js';
 
 
 class App extends Component {
+    state = {
+        sideNavOpen: false
+    };
+    
+    toggleCLickHandler = () => {
+        this.setState((prevState) => {
+            return {sideNavOpen: !prevState.sideNavOpen}
+        });
+    };
+
+   appClickHandler = () => {
+      this.setState({sideNavOpen: false}) 
+   };
+    
   render() {
+      let sideNav;
+      if(this.state.sideNavOpen) {
+          sideNav = <SideNav />;
+         };
+      
     return (
     <Router>
-      <div className="App" style={{height: '100%'}}>
-        <Navbar />
-        <SideNav />
+      <div className="App" style={{height: '100%'}} >
+        <Navbar sideNavClickHandler={this.toggleCLickHandler}/>
+        {sideNav}
         <SimpleSlider />
         <About />
         <Work />

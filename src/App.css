@@ -13,6 +13,10 @@ body {
   height: 100%;
 }
 
+/*-- Nav Css --*/
+.toggle-button {
+    display: none;
+}
 
 /*-- About Css --*/
 #about {
@@ -182,26 +186,11 @@ body {
 /*-- Media Queries --*/
 @media only screen and (max-width: 812px) {
 
-  .nav ul li {
+  .navItems ul li {
     display: none;
   }
     
-.mobileIcon {
-  height: 25px;
-  display: flex;
-  flex-direction: column;
-  width: 30px;
-  background: transparent;
-  justify-content: space-around;
-  cursor: pointer;
-}
 
-.line {
-   display: block;
-   width: 30px;
-   height: 2px;
-   background: hsl(350, 100%, 62%);
-}
 
   .footer-container {
     display: block;
