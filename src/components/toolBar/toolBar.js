@@ -1,4 +1,5 @@
 import React from 'react';
+import toggleButton from '../sideNav/toggle.js'
 import './toolBar.css'
 
 const Navbar = props => (
@@ -14,7 +15,9 @@ const Navbar = props => (
           <li><a>Contact</a></li>
         </ul>
      </div>
-      <div></div>
+      <div>
+         <toggleButton />
+      </div>
     </nav>
   </header>
 );

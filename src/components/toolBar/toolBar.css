@@ -36,4 +36,5 @@
 .navItems a {
     color: hsl(350, 100%, 62%);
     text-decoration: none;
+    cursor: pointer;
 }
