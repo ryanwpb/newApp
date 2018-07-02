@@ -7,4 +7,21 @@
     width: 250px;
     z-index: 200;
     background: #fff;
+    opacity: 0.8;
+}
+
+.sideNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+}
+
+.sideNav ul li {
+    margin: 0.5rem;
+}
+
+.sideNav ul a {
+    color: hsl(350, 100%, 62%);
+    font-size: 18px;
 }
