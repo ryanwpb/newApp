@@ -1,5 +1,6 @@
 .toolbar {
     width: 100%;
+    border-bottom: solid 2px #e5e5e5;
 }
 
 .toolbar-nav {
@@ -7,6 +8,8 @@
     align-items: center;
     height: 100%;
     padding: 1rem;
+    max-width: 1200px;
+    margin: 0px auto;
 }
 
 .logo h2 {
@@ -15,11 +18,19 @@
     font-size: 30px;
 }
 
+.spacer {
+    flex: 1;
+}
+
 .navItems ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+}
+
+.navItems li {
+    padding: 0 0.5rem;
 }
 
 .navItems a {

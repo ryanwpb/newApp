@@ -5,7 +5,7 @@ const Navbar = props => (
   <header className="toolbar"> 
     <nav className="toolbar-nav">
       <div className="logo"><h2>Ryan Graham</h2></div>
-      <div></div>
+      <div className="spacer"></div>
       <div className="navItems">
         <ul>
           <li><a>About</a></li>
