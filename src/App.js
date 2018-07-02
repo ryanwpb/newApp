@@ -25,22 +25,25 @@ class App extends Component {
         });
     };
 
-   appClickHandler = () => {
-      this.setState({sideNavOpen: false}) 
-   };
-    
+     overlayClickHandler = () => {
+        this.setState({sideNavOpen: false});  
+      };
+          
   render() {
       let sideNav;
+      let overlay;
+      
       if(this.state.sideNavOpen) {
           sideNav = <SideNav />;
+          overlay = <Overlay press={this.overlayClickHandler} />
          };
-      
       
     return (
     <Router>
       <div className="App" style={{height: '100%'}} >
         <Navbar sideNavClickHandler={this.toggleCLickHandler}/>
         {sideNav}
+        {overlay}
         <SimpleSlider />
         <About />
         <Work />
