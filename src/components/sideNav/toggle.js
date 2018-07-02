@@ -1,7 +1,7 @@
 import React from 'react';
-import './sideNav.css';
+import './toggle.css';
 
-const toggleButton = props => (
+const ToggleButton = props => (
   <button className="toggle-button">
     <div className="line"></div>
     <div className="line"></div>
@@ -9,4 +9,4 @@ const toggleButton = props => (
   </button>
 );
 
-export default toggleButton;
+export default ToggleButton;
