@@ -9,10 +9,10 @@ const Navbar = props => (
       <div className="spacer"></div>
       <div className="navItems">
         <ul>
-          <li><a>About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a>Work</a></li>
-          <li><a>Skills</a></li>
-          <li><a>Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
      </div>
       <div>
