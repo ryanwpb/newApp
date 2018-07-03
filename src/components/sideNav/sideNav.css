@@ -31,6 +31,17 @@
     color: hsl(350, 100%, 62%);
     font-size: 18px;
     width: 100%;
+    display: block;
     cursor: pointer;
+}
+
+.sideNav ul li:hover {
+    background:  hsl(350, 100%, 62%);
+    padding: 0.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.sideNav ul li a:hover {
+    color: #fff;
 }
 

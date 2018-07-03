@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import htmlImg from './assets/images/html-img.png';
 import cssImg from './assets/images/css-image.png';
+import htmlimg from './assets/images/html-img.png';
 import reactImg from './assets/images/reactJs-img.png';
-import jqueryImg from './assets/images/jquery.png'
+import jqueryImg from './assets/images/jquery.png';
 
 
 class Skills extends Component {
@@ -17,8 +18,9 @@ class Skills extends Component {
         </div>
       <section id="skills">
         <div className="skillBox">
-        <img src={htmlImg} width="" alt="HTML screen shot"/>
+        <img src={htmlimg} width="" alt="HTML screen shot"/>
           <h3>HTML</h3>
+         
          <p>Shortdescription to go here.</p>
           <span>Read more</span>
         </div>
