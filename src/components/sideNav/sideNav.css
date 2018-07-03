@@ -1,14 +1,19 @@
 .sideNav {
     height: 100%;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
     left: 0;
     width: 275px;
-    z-index: 200;
+    z-index: 300;
     background: #fff;
     opacity: 0.9;
-    transition: all 0.5s ease;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.sideNav.open {
+    transform: translateX(0);
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
 }
 
 .sideNav ul {

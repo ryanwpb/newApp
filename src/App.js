@@ -30,11 +30,9 @@ class App extends Component {
       };
           
   render() {
-      let sideNav;
       let overlay;
       
       if(this.state.sideNavOpen) {
-          sideNav = <SideNav />;
           overlay = <Overlay click={this.overlayClickHandler} />
          };
       
@@ -42,7 +40,7 @@ class App extends Component {
     <Router>
       <div className="App" style={{height: '100%'}} >
         <Navbar sideNavClickHandler={this.toggleCLickHandler}/>
-        {sideNav}
+        <SideNav show={this.state.sideNavOpen}/>
         {overlay}
         <SimpleSlider />
         <About />
