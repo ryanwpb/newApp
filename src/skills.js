@@ -8,6 +8,13 @@ import jqueryImg from './assets/images/jquery.png'
 class Skills extends Component {
   render() {
     return (
+    <div>
+        <div className="title">
+          <h2>Skills</h2>
+        </div>
+        <div className="titleDesc">
+         <p>Clients work with me to further their mission, reach their people and realize their goals. They look to me to combine personality, technology & creativeness in a way that garners results. <span className="red-span">So what can I do for you?</span></p>
+        </div>
       <section id="skills">
         <div className="skillBox">
         <img src={htmlImg} width="" alt="HTML screen shot"/>
@@ -34,6 +41,7 @@ class Skills extends Component {
          <span>Read more</span>
         </div>
       </section>
+    </div>
    
     );
   }

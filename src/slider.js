@@ -4,6 +4,8 @@ import tiyLogo from './assets/images/tiy-logo.png';
 import vLogo from './assets/images/vitacost-logo.png';
 import marLogo from './assets/images/marketran-logo.jpg';
 import codeCoffee from './assets/images/code-coffee.jpg';
+import coding from './assets/images/coding.jpeg';
+import developers from './assets/images/developers.jpg';
 
 
  
@@ -21,11 +23,11 @@ class SimpleSlider extends React.Component {
       <Slider {...settings}>
         <div>
           <div>
-          <img src={codeCoffee} width="" alt="Image of computer and coffee mug."/>
+          <img src={coding}width="" alt="Image of computer and coffee mug."/>
         </div>
         </div>
         <div>
-          <img src={vLogo} width="200" alt="Vitacost Logo"/>
+          <img src={developers} width="" alt="Developers coding"/>
         </div>
         <div>
           <h3>3</h3>
