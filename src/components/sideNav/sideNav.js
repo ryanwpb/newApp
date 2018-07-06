@@ -10,10 +10,10 @@ const SideNav = props => {
  return (
   <nav className={sideClasses}>
     <ul>
-      <li><a>About</a></li>
-      <li><a>Work</a></li>
-      <li><a>Skills</a></li>
-      <li><a>Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skillset">Skills</a></li>
+      <li><a href="#footer">Contact</a></li>
     </ul>
   </nav>
   );

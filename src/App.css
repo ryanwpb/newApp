@@ -126,7 +126,7 @@ body {
 }
 
 /*-- Footer Css --*/
-.footer {
+#footer {
   background: #222;
   height: auto;
   padding: 10px;
@@ -182,14 +182,14 @@ body {
   font-size: 18px;
 }
 
-.footer i {
+#footer i {
   color: #e5e5e5;
   font-size: 30px;
   cursor: pointer;
   margin: 0px 10px 0px 0px;
 }
 
-.footer i:hover {
+#footer i:hover {
   color: hsl(350, 100%, 62%);
 }
 

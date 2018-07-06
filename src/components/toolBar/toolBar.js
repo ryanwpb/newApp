@@ -10,9 +10,9 @@ const Navbar = props => (
       <div className="navItems">
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a>Work</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skillset">Skills</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
      </div>
       <div>

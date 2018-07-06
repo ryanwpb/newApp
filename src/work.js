@@ -7,12 +7,12 @@ import vLogo from './assets/images/vitacost-logo.png';
 class Work extends Component {
   render() {
     return (
-    <section>
+    <section id="work">
         <div className="title">
           <h2>Work</h2>
         </div>
         <div className="titleDesc">
-         <p>this my description paragraph.</p>
+         <p>Here are a few of the companies I've had the disticnt pleasure of working for.</p>
         </div>
       <div id="work-logos">
         <div className="work-logo">

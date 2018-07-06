@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import resume from './assets/documents/Ryan_Graham_Fl.pdf';
 
 class Footer extends Component {
     render() {
         return (
-        <section className="footer">
+        <section id="footer">
             <div className="footer-container">
               <div className="footer-logo">
                 <h2>Ryan Graham</h2>
@@ -34,7 +35,6 @@ class Footer extends Component {
                 </a>
               </div>
             </div>
-            
         </section>
         )
     }
