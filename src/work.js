@@ -17,13 +17,13 @@ class Work extends Component {
         </div>
       <div id="work-logos">
         <div className="work-logo">
+         <img src={ambrosia} width="200" alt="Ambrosia Treatment Center Logo"/>
+        </div>
+        <div className="work-logo">
           <img src={tiyLogo} width="" alt="The Iron Yard Logo"/>
         </div>
          <div className="work-logo">
           <img src={vLogo} width="200" alt="Vitacost Logo"/>
-        </div>
-        <div className="work-logo">
-         <img src={ambrosia} width="200" alt="Ambrosia Treatment Center Logo"/>
         </div>
       </div>
     </section>
