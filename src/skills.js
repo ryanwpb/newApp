@@ -50,7 +50,7 @@ class Skills extends Component {
          <span>Read more</span>
         </div>
          <div className="skillBox">
-        <img src={javascript} width="" alt="scass code screen shot"/>
+        <img src={javascript} width="" alt="javaScript code screen shot"/>
           <h3>JavaScript</h3>
          <p>Shortdescription to go here.</p>
          <span>Read more</span>
