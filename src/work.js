@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import tiyLogo from './assets/images/tiy-logo.png';
 import vLogo from './assets/images/vitacost-logo.png';
+import ambrosia from './assets/images/ambrosia.png';
 
 
 
@@ -22,7 +23,7 @@ class Work extends Component {
           <img src={vLogo} width="200" alt="Vitacost Logo"/>
         </div>
         <div className="work-logo">
-         
+         <img src={ambrosia} width="200" alt="Ambrosia Treatment Center Logo"/>
         </div>
       </div>
     </section>
