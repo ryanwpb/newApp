@@ -5,7 +5,7 @@ import htmlimg from './assets/images/html-img.png';
 import reactImg from './assets/images/reactJs-img.png';
 import jqueryImg from './assets/images/jQuery-img.png';
 import scassImg from './assets/images/scass.png';
-
+import javascript from './assets/images/JavaScript.png';
 
 class Skills extends Component {
   render() {
@@ -39,13 +39,19 @@ class Skills extends Component {
         </div>
         <div className="skillBox">
         <img src={jqueryImg} width="" alt="jquery code screen shot"/>
-          <h3>jQuery</h3>
+          <h3>JQuery</h3>
          <p>Shortdescription to go here.</p>
          <span>Read more</span>
         </div>
         <div className="skillBox">
         <img src={scassImg} width="" alt="scass code screen shot"/>
           <h3>SCASS</h3>
+         <p>Shortdescription to go here.</p>
+         <span>Read more</span>
+        </div>
+         <div className="skillBox">
+        <img src={javascript} width="" alt="scass code screen shot"/>
+          <h3>JavaScript</h3>
          <p>Shortdescription to go here.</p>
          <span>Read more</span>
         </div>
