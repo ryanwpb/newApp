@@ -65,9 +65,14 @@ section {
 /*-- Work Css --*/
 #work-logos {
   display: flex;
-  align-items: center;
+  margin: 0.5rem auto;
   max-width: 1200px;
-  margin: 0px auto;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 #work-logos .work-logo {
@@ -84,6 +89,8 @@ section {
 .slick-slide img {
   display: block;
   margin: 0px auto;
+  width: 100%;
+  height: 400px;
 }
 
 /*-- Skills Css --*/
@@ -245,6 +252,11 @@ section {
         float: none;
         padding: 0.5rem;
     }
+    
+    .work-logo:first-child {
+        margin: 3rem auto !important; 
+    }
+    
    
  .skillBox {
        margin: 0.5rem auto;

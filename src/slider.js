@@ -23,11 +23,11 @@ class SimpleSlider extends React.Component {
       <Slider {...settings}>
         <div>
           <div>
-          <img src={tiyLogo}width="200" alt="Image of computer and coffee mug."/>
+          <img src={coding} width="" alt="Image of computer and coffee mug."/>
         </div>
         </div>
         <div>
-          <img src={vLogo} width="200" alt="Developers coding"/>
+          <img src={developers} width="" alt="Developers coding"/>
         </div>
       </Slider>
     );
