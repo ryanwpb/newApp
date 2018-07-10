@@ -21,32 +21,32 @@ class Skills extends Component {
         <div className="skillBox">
         <img src={htmlimg} width="" alt="HTML code screen shot"/>
           <h3>HTML</h3>
-          <p>Shortdescription to go here.</p>
+          <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications.</p>
         </div>
          <div className="skillBox">
          <img src={cssImg} width="" alt="CSS code screen shot"/>
           <h3>CSS</h3>
-         <p>Shortdescription to go here.</p>
+         <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document.</p>
         </div>
          <div className="skillBox">
         <img src={reactImg} width="" alt="ReactJs code screen shot"/>
           <h3>ReactJS</h3>
-         <p>Shortdescription to go here.</p>
+         <p>React can be used as a base in the development of single-page or mobile applications.</p>
         </div>
         <div className="skillBox">
         <img src={jqueryImg} width="" alt="jquery code screen shot"/>
           <h3>JQuery</h3>
-         <p>Shortdescription to go here.</p>
+         <p>jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations & handle events.</p>
         </div>
         <div className="skillBox">
         <img src={scassImg} width="" alt="scass code screen shot"/>
-          <h3>SCASS</h3>
-         <p>Shortdescription to go here.</p>
+          <h3>SASS</h3>
+         <p>Sass is completely compatible with all versions of CSS. Sass boasts more features & abilities then any other CSS extension.</p>
         </div>
          <div className="skillBox">
         <img src={javascript} width="" alt="javaScript code screen shot"/>
           <h3>JavaScript</h3>
-         <p>Shortdescription to go here.</p>
+         <p>One of the three core technologies of Web Developers. JavaScript enables interactive web pages and web applications.</p>
         </div>
       </section>
     </div>
