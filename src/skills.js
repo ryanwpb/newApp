@@ -21,39 +21,32 @@ class Skills extends Component {
         <div className="skillBox">
         <img src={htmlimg} width="" alt="HTML code screen shot"/>
           <h3>HTML</h3>
-         
-         <p>Shortdescription to go here.</p>
-          <span>Read more</span>
+          <p>Shortdescription to go here.</p>
         </div>
          <div className="skillBox">
          <img src={cssImg} width="" alt="CSS code screen shot"/>
           <h3>CSS</h3>
          <p>Shortdescription to go here.</p>
-         <span>Read more</span>
         </div>
          <div className="skillBox">
         <img src={reactImg} width="" alt="ReactJs code screen shot"/>
           <h3>ReactJS</h3>
          <p>Shortdescription to go here.</p>
-         <span>Read more</span>
         </div>
         <div className="skillBox">
         <img src={jqueryImg} width="" alt="jquery code screen shot"/>
           <h3>JQuery</h3>
          <p>Shortdescription to go here.</p>
-         <span>Read more</span>
         </div>
         <div className="skillBox">
         <img src={scassImg} width="" alt="scass code screen shot"/>
           <h3>SCASS</h3>
          <p>Shortdescription to go here.</p>
-         <span>Read more</span>
         </div>
          <div className="skillBox">
         <img src={javascript} width="" alt="javaScript code screen shot"/>
           <h3>JavaScript</h3>
          <p>Shortdescription to go here.</p>
-         <span>Read more</span>
         </div>
       </section>
     </div>
