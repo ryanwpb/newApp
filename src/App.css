@@ -19,6 +19,9 @@ body {
 }
 
 /*-- About Css --*/
+section {
+    padding: 2rem 0;
+}
 #about {
   padding: 0.5rem;
 }
