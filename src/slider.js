@@ -6,6 +6,7 @@ import marLogo from './assets/images/marketran-logo.jpg';
 import codeCoffee from './assets/images/code-coffee.jpg';
 import coding from './assets/images/coding.jpeg';
 import developers from './assets/images/developers.jpg';
+import codeDesk from './assets/images/code-bench.jpg';
 
 
  
@@ -27,7 +28,7 @@ class SimpleSlider extends React.Component {
         </div>
         </div>
         <div>
-          <img src={developers} width="" alt="Developers coding"/>
+          <img src={codeDesk} width="" alt="Developers coding"/>
         </div>
       </Slider>
     );

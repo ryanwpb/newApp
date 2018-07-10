@@ -46,7 +46,7 @@ class Skills extends Component {
          <div className="skillBox">
         <img src={javascript} width="" alt="javaScript code screen shot"/>
           <h3>JavaScript</h3>
-         <p>One of the three core technologies of Web Developers. JavaScript enables interactive web pages and web applications.</p>
+         <p>One of the three core technologies of Web Developers. JavaScript makes web pages and web applications interactive.</p>
         </div>
       </section>
     </div>
