@@ -13,7 +13,7 @@ class About extends Component {
         </div>
         <div className="col">
           <div className="col col-left">
-           <p className="p1"><span className="s1">As a Web Developer. I come up with ideas & concepts that help you drive business. I’ve been in the business for over 3 years and can tackle everything from single page web applications to new site builds. I adapt my style to suit every job and have worked for some really amazing companies.</span></p>
+           <p className="p1"><span className="s1">As a Web Developer, I come up with ideas & concepts that help you drive business. I’ve been in the business for over 3 years and can tackle everything from single page web applications to new site builds. I adapt my style to suit every job and have worked for some really amazing companies.</span></p>
          </div>
         <div className="col col-right">
           <p className="p1"><span className="s1">Javascript, JQuery, CSS, HTML, React.js are my jam!
